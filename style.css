@@ -95,8 +95,7 @@ footer {
 }
 
 main {
-	width: 940px;
-	margin: 0 auto;
+	
 }
 
 form {
@@ -166,6 +165,14 @@ td, th {
 	clear: left;
 }
 
+.principal{
+	margin: 3em 0;
+	background: #FEFEFE;
+	width: 940px;
+	margin: 0 auto;
+
+}
+
 .principal p {
 	margin: 0 0 1em;
 }
@@ -186,6 +193,7 @@ td, th {
 
 .beneficios {
     padding: 3em 0;
+	background: #888888;
 }
 
 .itens {
@@ -213,11 +221,21 @@ td, th {
 
 .mapa {
 	padding: 3em 0;
+	/*background: radial-gradient( orange 50%, blue);*/
+    background: linear-gradient(#FEFEFE, #888888);
+  /* background: radial-gradient( red, blue, red); */
+	
 }
 
 .mapa p {
 	margin: 0 0 2em;
 	text-align: center;
+}
+
+.mapa-conteudo{
+	width: 640px;
+    margin: 0 auto;
+
 }
 
 .video {
