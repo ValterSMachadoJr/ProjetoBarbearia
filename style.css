@@ -165,12 +165,11 @@ td, th {
 	clear: left;
 }
 
-.principal{
-	margin: 3em 0;
+.principal {
+	padding: 3em 0;
 	background: #FEFEFE;
 	width: 940px;
 	margin: 0 auto;
-
 }
 
 .principal p {
@@ -191,40 +190,14 @@ td, th {
 	margin: 0 20px 20px 0;
 }
 
-.beneficios {
-    padding: 3em 0;
-	background: #888888;
-}
-
-.itens {
-    line-height: 1.5;
-}
-
-.itens:first-child {
-    font-weight: bold;
-}
-
-.conteudo-beneficios {
-    width: 640px;
-    margin: 0 auto;
-}
-
-.lista-beneficios {
-    width: 40%;
-    display: inline-block;
-	vertical-align: top;
-}
-
-.imagem-beneficios {
-	width: 60%;
-}
-
 .mapa {
 	padding: 3em 0;
-	/*background: radial-gradient( orange 50%, blue);*/
-    background: linear-gradient(#FEFEFE, #888888);
-  /* background: radial-gradient( red, blue, red); */
-	
+	background: linear-gradient(#FEFEFE, #888888);
+}
+
+.mapa-conteudo {
+	width: 940px;
+	margin: 0 auto;
 }
 
 .mapa p {
@@ -232,14 +205,46 @@ td, th {
 	text-align: center;
 }
 
-.mapa-conteudo{
-	width: 640px;
-    margin: 0 auto;
+.beneficios {
+	padding: 3em 0;
+	background: #888888;
+}
 
+.conteudo-beneficios {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.lista-beneficios {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.itens {
+	line-height: 1.5;
+}
+
+.itens:first-child {
+	font-weight: bold;
+}
+
+.itens:before {
+	content: "🟊";
+}
+
+.imagem-beneficios {
+	width: 60%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imagem-beneficios:hover {
+	opacity: 0.3;
 }
 
 .video {
-    width: 560px;
-    margin: 2em auto;
-
+	width: 560px;
+	margin: 2em auto;
 }
